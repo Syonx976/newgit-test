@@ -365,8 +365,59 @@
   text-align: center;
 }
 
+#accessoires-section h1{
+  padding-bottom: 60px;
+}
+
+
+#accesoires-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+
+.accessoire {
+  display: flex;
+  position: relative;
+  max-width: 45%;
+  flex-wrap: wrap;
+  padding: 0 30px 30px 30px;
+  align-items: flex-start;
+  color: var(--white);
+  margin-bottom: 30px;
+}
 
 
 
+
+.accessoire h3 {
+  width: 100%;
+}
+
+.accessoire img {
+  max-width: 40%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  border: solid 2px var(--white);
+
+
+}
+
+.accessoire p {
+  border-top: solid 2px var(--white);
+  border-bottom: solid 2px var(--white);
+  width: 60%;
+  text-align: left;
+  padding-left: 15px;
+}
+.accessoire .btn-link {
+  position: absolute;
+  bottom: -15px;
+  right: -30px ;
+  border: solid 2px var(--white);
+}
 
   /* ******************#PAGE ACCESSOIRES FIN# ******************/

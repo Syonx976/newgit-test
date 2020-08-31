@@ -1,68 +1,129 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Campos moto</title>
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Campos moto</title>
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <nav id="mainNavigation" class="container">
-    <a href="index.html">
-      <img src="img/Fichier 1.png" alt="">
-    </a>
-    <ul>
-      <li>
-        <a href="#">A propos</a>
-      </li>
-      <li>
-        <a href="nos-motos.html">Nos motos</a>
-      </li>
-      <li>
-        <a href="#">Vendre sa moto</a>
-      </li>
-      <li>
-        <a href="accessoires.html">Accessoires</a>
-      </li>
-      <li>
-        <a href="#">Nous contacter</a>
-      </li>
-    </ul>
-  </nav>
-  <section id="accessoires-section" class="container">
-        <h1>Connexion</h1>
+        <nav id="mainNavigation" class="container">
+                <a href="index.html">
+                        <img src="img/Fichier 1.png" alt="">
+                </a>
+                <ul>
+                        <li>
+                                <a href="#">A propos</a>
+                        </li>
+                        <li>
+                                <a href="nos-motos.html">Nos motos</a>
+                        </li>
+                        <li>
+                                <a href="#">Vendre sa moto</a>
+                        </li>
+                        <li>
+                                <a href="accessoires.html">Accessoires</a>
+                        </li>
+                        <li>
+                                <a href="#">Nous contacter</a>
+                        </li>
+                </ul>
+        </nav>
+        <header>
+                <form action="" id="search-home" class="red-rounded container">
+                  <select name="">
+                    <option>Type d'accessoire</option>
+                    <option value="Custom">Vetements</option>
+                    <option value="Sportive">Casques</option>
+                    <option value="Routiere">Accessoires Moto</option>
+                  </select>
+                  <select name="">
+                    <option></option>
+                    <option value="500">500 cm3</option>
+                    <option value="600">600 cm3</option>
+                    <option value="750">750 cm3</option>
+                  </select>
+                  <input type="number" 
+                         name="" 
+                         id="" 
+                         placeholder="Prix maximum (en €)">
+                  <input class="btn-link reverse"
+                         type="submit" 
+                         value="rechercher">
+                  <!-- <button type="submit">rechercher</button> -->
+                </form>
+              </header>
+        <section id="accessoires-section" class="container">
+                <h1>Accessoires</h1>
+                <div id="accesoires-list">
+                        <article class="accessoire red-rounded accessoire">
+                                <h3>Nom accessoire</h3>
+                                <img src="./img/casque1.jfif" alt="casque1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.orem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                <a href="annonce.html" class="btn-link">voir +</a>
+                        </article>
+                        <article class="accessoire red-rounded accessoire">
+                                <h3>Nom accessoire</h3>
+                                <img src="./img/casque2.jfif" alt="casque1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.orem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                <a href="annonce.html" class="btn-link">voir +</a>
+                        </article>
+                        <article class="accessoire red-rounded accessoire">
+                                <h3>Nom accessoire</h3>
+                                <img src="./img/casque3.jfif" alt="casque1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.orem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                <a href="annonce.html" class="btn-link">voir +</a>
+                        </article>
+                        <article class="accessoire red-rounded accessoire">
+                                <h3>Nom accessoire</h3>
+                                <img src="./img/combi1.jfif" alt="casque1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.orem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                <a href="annonce.html" class="btn-link">voir +</a>
+                        </article>
+                        <article class="accessoire red-rounded accessoire">
+                                <h3>Nom accessoire</h3>
+                                <img src="./img/combi2.jfif" alt="casque1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.orem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                <a href="annonce.html" class="btn-link">voir +</a>
+                        </article>
+                </div>
 
-        <article class="accessoire red-rounded">
 
-        </article>
+        </section>
 
-  </section>
-     
 
-  <footer>
-    <nav>
-      <ul>
-        <li>
-          <a href="#">A propos</a>
-        </li>
-        <li>
-          <a href="#">Nos motos</a>
-        </li>
-        <li>
-                <a href="accessoires.html">Accessoires</a>
-              </li>
-        <li>
-          <a href="#">Nous contacter</a>
-        </li>
-      </ul>
-    </nav>
-    <h4>Campos motos</h4>
-    <adress>
-      20 rue de l'exercice<br>
-      00404 Server
-    </adress>
-    <p>Copyright © 2020 TIW Buroscope - Tous droits réservés - Photos non contractuelles</p>
-  </footer>
+        <footer>
+                <nav>
+                        <ul>
+                                <li>
+                                        <a href="#">A propos</a>
+                                </li>
+                                <li>
+                                        <a href="#">Nos motos</a>
+                                </li>
+                                <li>
+                                        <a href="accessoires.html">Accessoires</a>
+                                </li>
+                                <li>
+                                        <a href="#">Nous contacter</a>
+                                </li>
+                        </ul>
+                </nav>
+                <h4>Campos motos</h4>
+                <adress>
+                        20 rue de l'exercice<br>
+                        00404 Server
+                </adress>
+                <p>Copyright © 2020 TIW Buroscope - Tous droits réservés - Photos non contractuelles</p>
+        </footer>
 </body>
+
 </html>
